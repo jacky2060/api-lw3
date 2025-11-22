@@ -1,0 +1,11 @@
+{
+  "products": [
+    { "id": 1, "name": "Banana", "price": 10 },
+    { "id": 2, "name": "Peach", "price": 7 }
+  ],
+  "purchases": [
+    { "id": 1, "product": 2, "quantity": 4 },
+    { "id": 2, "product": 1, "quantity": 2 },
+    { "id": 3, "product": [1, 2], "quantity": [2, 3] }
+  ]
+}
